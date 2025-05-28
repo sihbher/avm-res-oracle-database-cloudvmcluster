@@ -123,7 +123,7 @@ We welcome contributions to improve this module. Ensure your contributions compl
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.9.2)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.9, < 2.0)
 
 - <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (~> 1.14.0)
 
@@ -568,6 +568,14 @@ Description: The TCP Single Client Access Name (SCAN) port for SSL. The default 
 Type: `number`
 
 Default: `2484`
+
+### <a name="input_system_version"></a> [system\_version](#input\_system\_version)
+
+Description: Operating system version of the image.
+
+Type: `string`
+
+Default: `"24.1.8.0.0.250130"`
 
 ### <a name="input_tags"></a> [tags](#input\_tags)
 
